@@ -55,38 +55,139 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600;700&family=Jost:wght@400;600;700&display=swap"
     rel="stylesheet">
-
-  <!-- Structured Data (JSON-LD) -->
+  <!-- Enhanced Structured Data (JSON-LD) -->
   <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Protojay",
+  "description": "Protojay is a trusted branding company in Nairobi, offering services like billboard design, custom t-shirt printing, and creative signage solutions for both small and large businesses.",
+  "image": "https://www.protojay.co.ke/assets/images/hero-banner.jpg",
+  "url": "https://www.protojay.co.ke",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "123 Barber Street",
+    "addressLocality": "Nairobi",
+    "addressRegion": "Nairobi County",
+    "postalCode": "00100",
+    "addressCountry": "KE"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "-1.281759",
+    "longitude": "36.826313"
+  },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+254-757-195-234",
+    "contactType": "customer service",
+    "email": "jpaulwel@gmail.com",
+    "areaServed": "KE",
+    "availableLanguage": ["English", "Swahili"]
+  },
+  "sameAs": [
+    "https://www.facebook.com/share/19oYE3TsGH/",
+    "https://www.instagram.com/protojaydesigns?igsh=aXloemc3cHlxdGUy",
+    "https://www.tiktok.com/@protojaycustoms?_t=8r00gW3jur7&_r=1",
+    "https://www.threads.net/@protojaydesigns?xmt=AQGzYawn8ebFUZDVobanVTf0A6bgd4HaJZF6Ml40eEjngGk"
+  ],
+  "founder": {
+    "@type": "Person",
+    "name": "Casey Ochieng",
+    "jobTitle": "Founder & CEO"
+  },
+  "openingHours": "Mo-Fr 09:00-18:00",
+  "paymentAccepted": ["Cash", "Credit Card", "Mobile Money"],
+  "priceRange": "$$",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "reviewCount": "67"
+  },
+  "review": [
     {
-      "@context": "https://schema.org",
-      "@type": "LocalBusiness",
-      "name": "Protojay",
-      "description": "Protojay - Nairobi's premier branding company for billboard design, t-shirt printing, and signage.",
-      "image": "https://www.protojay.co.ke/assets/images/hero-banner.jpg",
-      "url": "https://www.protojay.co.ke",
-      "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "123 Barber Street",
-          "addressLocality": "Nairobi",
-          "addressRegion": "Nairobi County",
-          "postalCode": "00100",
-          "addressCountry": "KE"
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": "James Mwangi"
       },
-      "contactPoint": {
-          "@type": "ContactPoint",
-          "telephone": "+254-757-195-234",
-          "contactType": "customer service",
-          "email": "jpaulwel@gmail.com"
+      "datePublished": "2024-11-01",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5"
       },
-      "sameAs": [
-          "https://www.facebook.com/share/19oYE3TsGH/",
-          "https://www.instagram.com/protojaydesigns?igsh=aXloemc3cHlxdGUy",
-          "https://www.tiktok.com/@protojaycustoms?_t=8r00gW3jur7&_r=1",
-          "https://www.threads.net/@protojaydesigns?xmt=AQGzYawn8ebFUZDVobanVTf0A6bgd4HaJZF6Ml40eEjngGk"
-      ]
+      "description": "Excellent service! Protojay delivered our billboard design on time with impressive quality."
+    },
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": "Amina Ali"
+      },
+      "datePublished": "2024-10-25",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "4.5"
+      },
+      "description": "The t-shirt printing was fantastic. Good value for money and fast turnaround!"
     }
-  </script>
+  ],
+  "services": [
+    {
+      "@type": "Service",
+      "name": "Billboard Design",
+      "description": "High-quality billboard design services tailored to enhance outdoor advertising for brands in Nairobi and beyond.",
+      "serviceType": "Design",
+      "areaServed": "Nairobi County, Kenya"
+    },
+    {
+      "@type": "Service",
+      "name": "T-Shirt Printing",
+      "description": "Custom t-shirt printing for personal and corporate branding, with multiple material and color options.",
+      "serviceType": "Printing",
+      "areaServed": "Nairobi County, Kenya"
+    },
+    {
+      "@type": "Service",
+      "name": "Custom Signage",
+      "description": "Indoor and outdoor custom signage solutions including LED and vinyl signage for businesses.",
+      "serviceType": "Signage",
+      "areaServed": "Nairobi County, Kenya"
+    },
+    {
+      "@type": "Service",
+      "name": "Graphic Design",
+      "description": "Professional graphic design services for logos, brochures, and marketing materials.",
+      "serviceType": "Design",
+      "areaServed": "Nairobi County, Kenya"
+    }
+  ],
+  "keywords": "billboard design, t-shirt printing, signage, branding, graphic design, Nairobi",
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Protojay Service Catalog",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Billboard Design"
+        },
+        "price": "From $500"
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "T-Shirt Printing"
+        },
+        "price": "From $10 per shirt"
+      }
+    ]
+  }
+}
+</script>
+
 </head>
 <!-- body -->
 
@@ -464,8 +565,9 @@
                   </a>
                 </li>
                 <li class="social">
-                  <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Visit Protojay on YouTube">
-                    <iconify-icon class="social-icon fs-5 text-white me-4" icon="ri:youtube-fill"></iconify-icon>
+                  <a href="https://maps.google.com/?q=-1.281759,36.826313" target="_blank" rel="noopener noreferrer"
+                    aria-label="Visit Protojay">
+                    <iconify-icon class="social-icon fs-5 text-white me-4" icon="ri:maps-fill"></iconify-icon>
                   </a>
                 </li>
               </ul>
@@ -503,7 +605,7 @@
                   title="Chat with Us on WhatsApp">WhatsApp</a>
               </li>
               <li class="menu-item">
-                <a href="https://goo.gl/maps/abc123" target="_blank" rel="noopener noreferrer" class="footer-link"
+                <a href="" target="_blank" rel="noopener noreferrer" class="footer-link"
                   title="Find Us on Google Maps">Maps</a>
               </li>
               <li class="menu-item">
@@ -543,7 +645,7 @@
         </div>
         <div class="col-md-6 text-md-end">
           <p class="secondary-font">Developed by <a href="#" target="_blank" rel="noopener noreferrer"
-              class="text-decoration-underline fw-bold text-white-50">Protojay</a></p>
+              class="text-decoration-underline fw-bold text-white-50">Casey Chieng</a></p>
         </div>
       </div>
     </div>
