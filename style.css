@@ -19,7 +19,8 @@
 
 /* Theme Colors */
 :root {
-  --accent-color: #000000;
+  --accent-color: #D19013;
+  /* --accent-color: #000000; */
   --dark-color: #222222;
   --light-dark-color: #727272;
   --light-color: #fff;
